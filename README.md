@@ -10,7 +10,7 @@
 
 4.进行人工筛选特征，根据经验知识排除不相干特征项，最后使用随机森林算法或者开方检验进行特征进一步筛选，并画出变量权重分布图：
 
-![图1 classreport](https://github.com/yanhan19940405/Board-prediction-problem/blob/master/image/%E7%AC%AC%E4%BA%8C%E9%97%AE/Figure_.png）
+![图2 classreport](https://github.com/yanhan19940405/Board-prediction-problem/blob/master/image/%E7%AC%AC%E4%BA%8C%E9%97%AE/Figure_.png)
 5.根据选定特征进行建模，本例子即确定好评，中评，差评，晒图四种场景下每一种场景不同的特征贡献度，然后建模进行回归预测具体每项指标个数，此处也直接选用随机森林模型进行回归模型构建了并保存模型。
 
 6.其他结果图皆在image文件中。
